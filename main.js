@@ -40,6 +40,7 @@ function playerPlay() {
 		} else {
 			alert(`"${selection}" is not a valid choice, please re-enter`);
 		}
+		setTimeout(function(){},500);
 	}
 }
 
@@ -61,5 +62,4 @@ function game() {
 		console.log(`The final score is ${score[0]} to ${score[1]}. You ${result}!`);
 	}
 
-game();
 
